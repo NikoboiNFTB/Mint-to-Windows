@@ -13,17 +13,21 @@ sudo wget "https://4kwallpapers.com/images/wallpapers/windows-11-dark-mode-blue-
 gsettings set org.cinnamon.desktop.background picture-uri  "file:///usr/share/backgrounds/Win11/windows-11-dark-mode-blue-stock-official-3840x2400-5630.jpg"
 ```
 
-2. Get Windows 11 icon pack.
+2. Get and activate Windows 11 icon pack.
 
 ```bash
 mkdir -p ~/GitHub/yeyushengfan258/Win11-icon-theme
 cd ~/GitHub/yeyushengfan258/Win11-icon-theme
 git clone "https://github.com/yeyushengfan258/Win11-icon-theme" .
 bash install.sh
+gsettings set org.cinnamon.desktop.interface icon-theme 'Win11-Dark'
 ```
 
 3. Change the panel to look more like the taskbar.
 
 ```bash
-
+sudo mkdir -p /usr/share/icons/Win11
+cd /usr/share/icons/Win11
+wget "https://i.namu.wiki/i/xmwIVu64qlhCyWmBQKaZQMuXqyziycMqKWKVHqo8CsmJYCc4vc2lNc5hVIFfdPSx_7uuIH1FfYb8JTLuJJPzw6pD9E30vXXxlJQ5y5KoR9fzd5-EoM2USnerTKCWMmLcb7o6S20AHNfJs2cD0cHK7A.svg"
+# Manually set the Menu icon to this.
 ```
