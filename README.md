@@ -28,6 +28,6 @@ gsettings set org.cinnamon.desktop.interface icon-theme 'Win11-Dark'
 ```bash
 sudo mkdir -p /usr/share/icons/Win11
 cd /usr/share/icons/Win11
-wget "https://i.namu.wiki/i/xmwIVu64qlhCyWmBQKaZQMuXqyziycMqKWKVHqo8CsmJYCc4vc2lNc5hVIFfdPSx_7uuIH1FfYb8JTLuJJPzw6pD9E30vXXxlJQ5y5KoR9fzd5-EoM2USnerTKCWMmLcb7o6S20AHNfJs2cD0cHK7A.svg"
+sudo wget "https://i.namu.wiki/i/xmwIVu64qlhCyWmBQKaZQMuXqyziycMqKWKVHqo8CsmJYCc4vc2lNc5hVIFfdPSx_7uuIH1FfYb8JTLuJJPzw6pD9E30vXXxlJQ5y5KoR9fzd5-EoM2USnerTKCWMmLcb7o6S20AHNfJs2cD0cHK7A.svg"
 # Manually set the Menu icon to this.
 ```
