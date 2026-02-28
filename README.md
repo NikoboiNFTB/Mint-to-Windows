@@ -11,3 +11,19 @@ sudo mkdir -p /usr/share/backgrounds/Win11
 cd /usr/share/backgrounds/Win11
 sudo wget "https://4kwallpapers.com/images/wallpapers/windows-11-dark-mode-blue-stock-official-3840x2400-5630.jpg"
 gsettings set org.cinnamon.desktop.background picture-uri  "file:///usr/share/backgrounds/Win11/windows-11-dark-mode-blue-stock-official-3840x2400-5630.jpg"
+```
+
+2. Get Windows 11 icon pack.
+
+```bash
+mkdir -p ~/GitHub/yeyushengfan258/Win11-icon-theme
+cd ~/GitHub/yeyushengfan258/Win11-icon-theme
+git clone "https://github.com/yeyushengfan258/Win11-icon-theme" .
+bash install.sh
+```
+
+3. Change the panel to look more like the taskbar.
+
+```bash
+
+```
