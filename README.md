@@ -31,3 +31,15 @@ cd /usr/share/icons/Win11
 sudo wget "https://i.namu.wiki/i/xmwIVu64qlhCyWmBQKaZQMuXqyziycMqKWKVHqo8CsmJYCc4vc2lNc5hVIFfdPSx_7uuIH1FfYb8JTLuJJPzw6pD9E30vXXxlJQ5y5KoR9fzd5-EoM2USnerTKCWMmLcb7o6S20AHNfJs2cD0cHK7A.svg"
 # Manually set the Menu icon to this by Right click the Menu -> Configure... -> Icon
 ```
+
+## Contributing
+
+Feel free to fork this repository and submit issues or pull requests if you have any suggestions or improvements. If you encounter any bugs or have feature requests, please open an issue.
+
+## Credits
+
+Created by **[Nikoboi](https://github.com/NikoboiNFTB/)**
+
+## License
+
+This project is licenced under the GNU General Public License V3. See [LICENSE](/LICENSE) for details.
