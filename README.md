@@ -1,4 +1,5 @@
-⚠️ Not anywhere near done in any way, shape or form.
+> [!WARNING]
+> Not anywhere near done in any way, shape or form.
 
 # Mint-to-Windows
 
